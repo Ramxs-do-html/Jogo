@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(Imagens/SerieB.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    width: 210px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.message {
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 50px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.jogador img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.player img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  td {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+    border: 1px solid black;
+  }
+  
+  tr:first-child td {
+    border-top: none; /* Remove a borda superior da primeira linha */
+  }
+  
+  tr:last-child td {
+    border-bottom: none; /* Remove a borda inferior da última linha */
+  }
+  
+  td:first-child {
+    border-left: none; /* Remove a borda esquerda da primeira coluna */
+  }
+  
+  td:last-child {
+    border-right: none; /* Remove a borda direita da última coluna */
+  }
+  
